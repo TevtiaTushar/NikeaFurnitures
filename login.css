@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+/* Header CSS */
+header {
+  /* background-color: rgb(189, 220, 221); */
+  background-color: rgb(73, 88, 88);
+}
+nav {
+  width: 78.8vw;
+  padding: 1rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+#logo a {
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: bolder;
+  /* color: rgb(179, 95, 40); */
+  color: rgb(189, 220, 221);
+}
+
+#links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.link {
+  padding: 0px 1rem;
+  transition: background-color 500ms, border-radius 500ms;
+}
+
+.link a {
+  text-decoration: none;
+  /* color: rgb(179, 95, 40); */
+  color: rgb(189, 220, 221);
+}
+
+.link:hover {
+  background-color: peachpuff;
+  border-radius: 50%;
+}
+
+.link a:hover {
+  color: rgb(179, 95, 40);
+}
+/* Header CSS */
+
+/* main CSS */
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 67%;
+}
+
+#left-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#right-main form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+input {
+  margin: 1rem 0px;
+  font-size: 18px;
+  border: 1px solid grey;
+  padding: 0.7rem;
+  border-radius: 1rem;
+  outline: none;
+}
+
+input[type="submit"] {
+  border: none;
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  transition: all 500ms;
+}
+input[type="submit"]:hover {
+  background-color: rgb(19, 80, 141);
+}
+input[type="submit"]:active {
+  transform: scale(0.9);
+}
+
+#bottom-form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#alert1 {
+  color: red;
+  font-size: 14px;
+}
+#alert2 {
+  color: red;
+  font-size: 14px;
+}
+/* main CSS */
+
+/* footer CSS */
+footer {
+  background-color: rgb(73, 88, 88);
+  padding: 1.5% 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#left {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#top p {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+#top img {
+  transition: all 500ms;
+}
+
+#top img:hover {
+  background-color: rgb(189, 220, 221);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+}
+
+#bottom p {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+#right {
+  width: 30rem;
+}
+
+#right p:first-of-type {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+#right p:last-of-type {
+  color: gray;
+}
+/* footer CSS */
